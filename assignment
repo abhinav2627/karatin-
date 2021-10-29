@@ -2,7 +2,7 @@ import time
 import plyer
 from plyer import notification
 if __name__ == "__main__":
-    while True:
+    (while True:
         notification.notify(
             title = " Please Drink Water!! ",
             message = "The U.S. National Academies of Sciences, Engineering, and Medicine determined that an adequate daily fluid intake is: About 15.5 cups (3.7 liters) of fluids a day for men. About 11.5 cups (2.7 liters) of fluids a day for women.",
@@ -10,3 +10,14 @@ if __name__ == "__main__":
             timeout =10
         )
         time.sleep(60*60)
+     )
+     
+   (while True:
+        notification.notify(
+            title = "Take your medicine!!",
+            message = "ahhh medication time. Have it and rest for few hours",
+            app_icon = None,
+            timeout = 10
+        )
+        time.sleep(60*60*8)
+        )
